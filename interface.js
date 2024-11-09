@@ -49,7 +49,7 @@ function setupScreens(){
 		Helon.ctx.fillText("Hellaxy", 480, 320);
 		Helon.ctx.font = "32px Consolas";
 		if (!intervalReact(true, 500, "title")) Helon.ctx.fillText("> Press Space <", 800, 640);
-		Helon.ctx.fillText("developed by HelkoLeucken", 44, 980);
+		Helon.ctx.fillText("developed by HelkoLueken", 44, 980);
 		if (key.space) setScreen("menue");
 	});
 
